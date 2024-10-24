@@ -26,6 +26,8 @@
 <string>We need access to your photo library to upload images.</string>
 <key>NSCameraUsageDescription</key>
 <string>We need access to your camera to take pictures.</string>
+<key>NSCameraUsageDescription</key>
+<string>This app needs camera access to scan QR codes</string>
 
 	<key>LSRequiresIPhoneOS</key>
 	<true/>

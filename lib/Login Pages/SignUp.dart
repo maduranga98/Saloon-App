@@ -1,8 +1,8 @@
 import 'dart:io';
-import 'dart:typed_data';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:saloon_app/Common/InputDecoration.dart';
+import 'package:saloon_app/Employee/E_Registration.dart';
 
 class Signup extends StatefulWidget {
   const Signup({super.key});
@@ -229,6 +229,10 @@ class _SignupState extends State<Signup> {
         setState(() {
           _isLoading = true;
         });
+        Navigator.push(
+            context,
+            MaterialPageRoute(
+                builder: (context) => EmployeeRegistrationForm()));
         // Add your form submission logic here
         // Example:
         // await submitFormData({
