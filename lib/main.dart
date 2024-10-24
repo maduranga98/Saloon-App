@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:saloon_app/Employee/E_Registration.dart';
+import 'package:saloon_app/Login%20Pages/LoginPage.dart';
 import 'package:saloon_app/Login%20Pages/SignUp.dart';
 
 void main() {
@@ -12,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Signup(),
+      home: Loginpage(),
     );
   }
 }
